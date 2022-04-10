@@ -1,16 +1,74 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>QPICK</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo"></div>
+    <header class="header">
+        <nav class="navigation">
+            <div class="logo"><a href="index.html">QPICK</a></div>
+            <div class="nav_link">
+                <div class="link_like">
+                    <div class="counter_like">2</div>
+                    <img src="img\Likes.png" alt="Лайки" class="link_img">
+                </div>
+                <div class="link_basket">
+                    <a href=""><div class="counter_basket"></div></a>
+                    <a href="basket.html"><img src="img\Basket.png" alt="Корзина" class="link_img"></a>
+                </div>
+            </div>
         </nav>
     </header>
+    <main class="main">
+        <div class="headphones">
+            <h3 class="main_header">Наушники</h3>
+            <div class="headphones_wrapper" id="container">
+
+            </div>
+        </div>
+        <div class="wireless_headphones">
+            <h3 class="main_header">Беспроводные наушники</h3>
+            <div class="wireless_headphones_wrapper">
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer_wrapper">
+            <div class="footerLogo">
+                QPICK
+            </div>
+            <div class="footer_navigation">
+                <div class="footer_sub_nav">
+                    <div class="footer_link"><a href="">Избранное</a></div>
+                    <div class="footer_link"><a href="basket.html">Корзина</a></div>
+                    <div class="footer_link"><a href="">Контакты</a></div>
+                </div>
+                <div class="footer_sub_nav">
+                    <div class="footer_link"><a href="">Условия сервиса</a></div>
+                    <div class="language">
+                        <img src="img\Lang.png" alt="">
+                        <button class="eng_lang">Каз</button>
+                        <button class="rus_lang active_lang">Рус</button>
+                        <button class="eng_lang">Eng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="social_networks">
+                <img src="img\VK.png" alt="">
+                <img src="img\Telegram.png" alt="">
+                <img src="img\Whatsapp.png" alt="">
+            </div>
+        </div>
+    </footer>
+    <script src="JavaScript\script.js"></script>
 </body>
 </html>

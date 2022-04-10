@@ -1,0 +1,577 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+body {
+    min-height: 100vh;
+    height: 100%;
+    background: #EAEAEA;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+}
+
+.header {
+    width: 1135px;
+    height: 60px;
+}
+
+.navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+}
+
+.logo a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+}
+
+
+.nav_link {
+    display: flex;
+}
+
+.link_like {
+    margin-right: 45px;
+}
+
+.link_basket {
+    margin-right: 31.31px;
+}
+
+.link_img{
+    cursor: pointer;
+}
+.counter_like {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 17.4px;
+    height: 17.4px;
+    border-radius: 50%;
+    background: #FFA542;
+    position: relative;
+    top: 10.6px;
+    left: 15px;
+}
+
+
+.counter_basket {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 17.4px;
+    height: 17.4px;
+    border-radius: 50%;
+    position: relative;
+    top: 10.6px;
+    left: 15px;
+    background: #FFA542;
+}
+
+.counter_basket1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 17.4px;
+    height: 17.4px;
+    border-radius: 50%;
+    position: relative;
+    top: 10.6px;
+    left: 15px;
+    background: #FFA542;
+}
+
+.counter_none {
+    background: none;
+}
+
+.main {
+    width: 1110px;
+    margin-right: 25px;
+    margin-bottom: 180px;
+}
+
+.main_header{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #838383;
+}
+
+
+.headphones_wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30.65px;
+}
+
+.wireless_headphones_wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30.65px;
+}
+
+.product_block {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 350px;
+    height: 407px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.product_img {
+    width: 219.61px;
+    height: 237.07px;
+    margin-top: 15.07px;
+}
+
+.headphones_info {
+    width: 307.04px;
+    margin-top: 54.36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.name_headphones {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
+
+.price {
+    height: 36.97px;
+}
+
+.basket_price {
+    margin-top: 12px;
+    color: #AAAAAA;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.new_price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFA542;
+}
+
+.old_price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+    color: #FFCE7F;
+    text-align: center;
+}
+
+.red_price {
+    height: 36.97px;
+    display: flex;
+    position: relative;
+    left: 8px;
+}
+
+.discount_price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.1687px;
+    line-height: 23px;
+    color: #DF6464;
+}
+
+.discount {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.2934px;
+    line-height: 20px;
+    color: #DF6464;
+    margin-left: 25.79px;
+}
+
+.buy {
+    width: 310.04px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating_info {
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+}
+
+.star {
+    background-image: url("img/Star.png");
+    width: 23.33px;
+    height: 21.93px;
+}
+
+.rating {
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #838383;
+}
+
+.buy_button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    border: none;
+    background: #FFFFFF;
+    margin-top: 15.9px;
+    cursor: pointer;
+}
+
+.wireless_headphones {
+    margin-top: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer {
+    width: 1110px;
+    height: 149px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 30px 0px 0px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.footer_wrapper {
+    margin-top: 29px;
+    margin-right: 26px;
+    margin-left: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLogo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+}
+
+.footerLogo a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+}
+
+.footer_navigation {
+    display: flex;
+    width: 427px;
+    justify-content: space-between;
+}
+
+.footer_link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.language {
+    margin-top: 36.5px;
+    width: 152px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rus_lang {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #101010;
+}
+
+.eng_lang {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #101010;
+}
+
+.active_lang{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFA542;
+}
+
+.social_networks {
+    width: 126.1px;
+    height: 30.1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_networks img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.social_networks :first-child {
+    width: 30px;
+    height: 20.64px;
+}
+
+.basket_main {
+    width: 1110px;
+    margin-top: 46px;
+    margin-right: 25px;
+    margin-bottom: 250px;
+}
+
+.basket_header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1C1C27;
+}
+
+.basket_product_block {
+    width: 633px;
+    height: 218px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.basket_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket_product_img {
+    width: 146.53px;
+    height: 136px;
+    left: 183.76px;
+    top: 144px;
+    margin-top: 18px;
+    margin-left: 18.76px;
+}
+
+.basket_name_headphones {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
+
+.basket_headphones_info {
+    margin-left: 23px;
+    margin-top: 76px;
+    width: 396.21px;
+}
+
+
+.delete {
+    width: 19.93px;
+    height: 17px;
+    margin-top: 18px;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+
+.counter_item {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 28px;
+}
+
+.sub_counter_item {
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 125.43px;
+    height: 30px;
+}
+
+.sub_counter_item img{
+    cursor: pointer;
+}
+
+
+.outcome {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.last_price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #1C1C27;
+    margin-top: 26px;
+}
+
+.basket_headphones_wrapper{
+    margin-top: 20px;
+}
+
+.basket_headphones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmation {
+    margin-top: 24px;
+    margin-left: 127px;
+    width: 348.98px;
+    height: 114px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+.total {
+    margin-top: 22px;
+    width: 311.22px;
+    height: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.accept {
+    cursor: pointer;
+    width: 348.98px;
+    height: 65px;
+    margin-top: 15px;
+    background: #101010;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
